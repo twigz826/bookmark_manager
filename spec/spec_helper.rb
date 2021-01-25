@@ -23,5 +23,5 @@ RSpec.configure do |config|
   ENV['RACK_ENV'] = 'test'
   require File.join(File.dirname(__FILE__), '..', 'app.rb')
   # Tell Capybara about our app class
-  Capybara.app = Bookmarks
+  Capybara.app = BookmarkManager
 end
