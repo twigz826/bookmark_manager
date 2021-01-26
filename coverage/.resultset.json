@@ -15,6 +15,12 @@
         1,
         1,
         null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -28,6 +34,8 @@
       ],
       "/Users/ttwigden/Desktop/Makers/Projects/bookmark-manager/spec/features/view_bookmarks_spec.rb": [
         1,
+        null,
+        1,
         1,
         1,
         1,
@@ -35,7 +43,15 @@
         null,
         null,
         1,
+        1,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
         1,
         1,
         1,
@@ -43,6 +59,6 @@
         null
       ]
     },
-    "timestamp": 1611672883
+    "timestamp": 1611681361
   }
 }

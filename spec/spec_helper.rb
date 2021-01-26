@@ -1,3 +1,13 @@
+require_relative './setup_test_database'
+
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
@@ -20,7 +30,6 @@ RSpec.configure do |config|
     puts "\e[33mHave you considered running rubocop? It will help you improve your code!\e[0m"
     puts "\e[33mTry it now! Just run: rubocop\e[0m"
   end
-  ENV['RACK_ENV'] = 'test'
   require File.join(File.dirname(__FILE__), '..', 'app.rb')
   # Tell Capybara about our app class
   Capybara.app = BookmarkManager
