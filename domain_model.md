@@ -8,6 +8,11 @@ I would like the page to show a list of bookmarks
 
 [Diagram for first user story](https://docs.google.com/document/d/1k1xpbtsubpFRwNrn_ZggF5RIv_QdLAjiu8jgIJi6qv4/edit)
 
+```
+As a user
+So that I can add pages I like
+I would like to be able to add a page to my bookmarks manager
+```
 
 Nouns
 -----
