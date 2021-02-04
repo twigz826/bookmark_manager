@@ -31,4 +31,7 @@ class Bookmark
     connection.exec("INSERT INTO bookmarks (url) VALUES ('#{bookmark}')")
     puts "Bookmark added!"
   end
+
 end
+
+#Hello world!
