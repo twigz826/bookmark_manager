@@ -59,6 +59,8 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-rspec (1.41.0)
+      rubocop (>= 0.68.1)
     ruby-progressbar (1.10.1)
     ruby2_keywords (0.0.4)
     simplecov (0.17.1)
@@ -90,7 +92,8 @@ DEPENDENCIES
   capybara
   pg
   rspec
-  rubocop (= 0.79.0)
+  rubocop
+  rubocop-rspec
   simplecov
   simplecov-console
   sinatra
