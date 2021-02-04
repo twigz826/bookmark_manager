@@ -1,10 +1,6 @@
 require 'pg'
 
 feature 'bookmarks' do
-  scenario 'shows saved bookmarks' do
-    visit('/')
-    expect(page).to have_content("Here are your bookmarks")
-  end
 
   scenario 'show preloaded bookmarks' do
     Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
